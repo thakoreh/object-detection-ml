@@ -1,13 +1,8 @@
 from transformers import DetrFeatureExtractor, DetrForObjectDetection
 import torch
 from PIL import Image
-import requests
 from fastapi import FastAPI,Response,UploadFile,File
-import requests
-from fastapi.responses import FileResponse
 from io import BytesIO
-import base64
-import re
 
 
 app = FastAPI()
